@@ -1,0 +1,47 @@
+{
+  "name": "pixel-services",
+  "version": "1.0.85",
+  "description": "bot",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=18.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.3.2",
+    "moleculer": "^0.14.33",
+    "moleculer-repl": "^0.7.4",
+    "mongoose": "^8.3.1",
+    "nodemailer": "^6.9.13",
+    "protobufjs": "^6.11.2",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/nodemailer": "^6.4.14",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "nodemon": "^3.1.0",
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon --exec pnpm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
